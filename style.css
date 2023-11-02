@@ -1,0 +1,306 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+:root {
+	--bg1: #292f36;
+	--bg2: #1a1e23;
+	--brand1: #12f7d6;
+	--brand2: #98faec;
+	--gray: #43454d;
+	--white: #fff;
+	--html: #e54f26;
+	--css: #0c73b8;
+	--js: #e7a020;
+	--react: #28a9e0;
+	--text: rgba(255, 255, 255, 0.7);
+}
+
+.section-one {
+	min-height: 100vh;
+	background-color: var(--bg1);
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 10vh;
+	background-color: var(--bg1);
+	color: var(--white);
+	padding: 0 3rem;
+}
+.logo {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.logo span {
+	color: var(--brand1);
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	margin: 0 1rem;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+nav ul li a:hover {
+	color: var(--brand1);
+}
+
+.search div {
+	height: 2rem;
+	width: 15rem;
+	background-color: var(--white);
+	border-radius: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+.search div .fa-magnifying-glass {
+	margin: 1rem;
+	color: var(--bg1);
+}
+
+.links {
+	color: var(--brand1);
+	font-size: 1.3rem;
+}
+.fa-discord {
+	margin: 0rem 1rem;
+}
+
+section hr {
+	width: 95%;
+	margin: auto;
+	border: 1px solid var(--gray);
+}
+
+.box {
+	display: flex;
+	padding: 2rem;
+	align-items: center;
+	/* background-color: red; */
+}
+
+.vertical-menu {
+	width: 4vw;
+	height: 50vh;
+	border-radius: 2rem;
+	margin-left: 2rem;
+	background-color: var(--bg2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* background-color: green; */
+	margin-top: -22rem;
+}
+
+.vertical-menu span {
+	color: var(--white);
+	padding: 0.8rem;
+	font-size: 2.2rem;
+}
+
+.hero {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* background-color: blue; */
+	margin-left: 7rem;
+}
+
+.heading {
+	font-size: 7rem;
+	font-weight: 500;
+	padding: 1.5rem;
+	color: var(--brand1);
+	/* background-color: yellow; */
+}
+
+.info {
+	height: 80vh;
+	width: 25vw;
+	border: 5px solid var(--white);
+	border-radius: 12rem 0 12rem 0;
+	box-shadow: -0.4rem -0.4rem 0.3rem var(--brand2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--white);
+	/* background-color: orange; */
+}
+
+.info > h2 {
+	padding-top: 0.5rem;
+	font-size: 2rem;
+}
+.info > p {
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.circle img {
+	width: 127px;
+	height: 127px;
+	border-radius: 50%;
+	border: 3px solid var(--brand2);
+}
+
+.hero span {
+	padding: 0rem;
+	margin: 0;
+}
+
+.profile-links {
+	display: flex;
+	flex-direction: column;
+}
+
+.profile-links p {
+	margin: 0.4rem;
+}
+
+.profile-links p span {
+	padding: 0.5rem;
+	color: var(--brand1);
+	margin-right: 0.5rem;
+}
+
+.tech {
+	display: flex;
+	margin-top: 0.8rem;
+}
+.tech div {
+	background-color: var(--brand1);
+	border-radius: 2rem;
+	padding: 0 0.5rem;
+	margin: 0.5rem;
+	color: var(--bg1);
+	font-weight: 500;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--white);
+	color: var(--bg1);
+	border-radius: 2rem;
+	padding: 1.2rem 3rem;
+	margin-top: 2rem;
+}
+
+.btn > span {
+	padding-left: 0.4rem;
+}
+
+.details {
+	display: flex;
+}
+
+.self-info {
+	padding: 1.2rem 10rem;
+}
+
+.self-info h1 {
+	font-size: 4rem;
+	color: var(--white);
+	font-weight: 500;
+}
+
+.self-info h1 > span {
+	color: var(--brand1);
+}
+
+.info-para {
+	padding: 1.5rem 0rem;
+}
+
+.info-para p {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 1.2rem;
+	padding: 1rem 0;
+}
+
+.info-heading > span,
+.info-para > span {
+	color: var(--brand2);
+}
+
+.talk {
+	display: flex;
+	font-size: 2rem;
+	align-items: center;
+	color: var(--brand1);
+}
+
+.talk div {
+	display: flex;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--gray);
+	margin-left: 2rem;
+}
+
+.exp {
+	background-color: var(--bg2);
+	height: 25rem;
+	width: 25rem;
+	border-radius: 5rem;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: center;
+	margin-right: 4rem;
+}
+
+.exp span {
+	margin: 1rem;
+	color: var(--brand1);
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+.exp p {
+	color: var(--text);
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.exp1 {
+	display: flex;
+	padding: 1rem;
+}
+
+.exp-det {
+	/* background-color: red; */
+	padding-top: 0.7rem;
+}
+
+.section-two {
+	background-color: var(--bg2);
+	min-height: 100vh;
+	color: var(--white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mouse > span {
+	font-size: 3rem;
+}
