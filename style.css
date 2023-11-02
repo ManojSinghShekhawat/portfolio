@@ -74,6 +74,12 @@ nav ul li a:hover {
 	color: var(--brand1);
 	font-size: 1.3rem;
 }
+
+div.links > *:hover {
+	color: var(--white);
+	/* opacity: 0.5; */
+}
+
 .fa-discord {
 	margin: 0rem 1rem;
 }
